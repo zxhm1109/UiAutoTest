@@ -1,0 +1,13 @@
+login:
+  url: "http://192.168.200.103/DEV/ssxq-web-admin/#/login"
+  username: "user"
+  password: "123456"
+
+
+access_token: &token
+  token: ""
+
+
+token:
+- token
+- '12312312'
