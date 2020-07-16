@@ -1,0 +1,548 @@
+2020-07-16 10:16:19,098 Run.py[line:19] INFO-> ---------------START -> UIAutoTest_20200716101619----------------
+2020-07-16 10:16:21,655 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '错误的账号', 'username': 'zhaofy', 'password': '123456', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的密码', 'username': 'user', 'password': '1111111', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的图片验证码', 'username': 'user', 'password': '123456', 'access_token': '66666', 'assert': '验证码不正确(401)'}, {'casename': '正常登陆', 'username': 'user', 'password': '123456', 'access_token': None, 'assert': '$index_page.button_top_right_user()'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 10:16:21,671 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '正常添加一级分类', 'g_name': 'Autotest_测试类目名称', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 1111}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 10:16:33,800 login_page.py[line:46] INFO-> sbbe
+2020-07-16 10:16:34,495 Test_login.py[line:44] INFO-> 用户名或密码错误(1)
+2020-07-16 10:16:35,306 login_page.py[line:59] INFO-> msg:用户名或密码错误(1)
+2020-07-16 10:16:41,389 login_page.py[line:46] INFO-> xfkw
+2020-07-16 10:16:41,962 Test_login.py[line:44] INFO-> 用户名或密码错误(1)
+2020-07-16 10:16:42,808 login_page.py[line:59] INFO-> msg:用户名或密码错误(1)
+2020-07-16 10:16:49,084 Test_login.py[line:44] INFO-> 验证码不正确(401)
+2020-07-16 10:16:49,697 login_page.py[line:59] INFO-> msg:验证码不正确(401)
+2020-07-16 10:16:55,646 login_page.py[line:46] INFO-> pxxv
+2020-07-16 10:16:56,885 index_page.py[line:22] INFO-> 体验用户test
+2020-07-16 10:17:02,330 Test_login.py[line:54] INFO-> 12312312131
+2020-07-16 10:17:07,991 BasePage.py[line:160] INFO-> 强制等待： 1 seconds
+2020-07-16 10:17:11,034 BasePage.py[line:160] INFO-> 强制等待： 3 seconds
+2020-07-16 10:17:16,072 BasePage.py[line:160] INFO-> 强制等待： 3 seconds
+2020-07-16 10:22:20,414 Run.py[line:19] INFO-> ---------------START -> UIAutoTest_20200716102220----------------
+2020-07-16 10:22:22,184 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '错误的账号', 'username': 'zhaofy', 'password': '123456', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的密码', 'username': 'user', 'password': '1111111', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的图片验证码', 'username': 'user', 'password': '123456', 'access_token': '66666', 'assert': '验证码不正确(401)'}, {'casename': '正常登陆', 'username': 'user', 'password': '123456', 'access_token': None, 'assert': '$index_page.button_top_right_user()'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 10:22:22,227 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '正常添加一级分类', 'g_name': 'Autotest_测试类目名称', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 1111}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 10:22:30,965 login_page.py[line:46] INFO-> wqfg
+2020-07-16 10:22:31,536 Test_login.py[line:44] INFO-> 用户名或密码错误(1)
+2020-07-16 10:22:32,301 login_page.py[line:59] INFO-> msg:用户名或密码错误(1)
+2020-07-16 10:22:38,119 login_page.py[line:46] INFO-> syry
+2020-07-16 10:22:38,584 Test_login.py[line:44] INFO-> 用户名或密码错误(1)
+2020-07-16 10:22:39,409 login_page.py[line:59] INFO-> msg:用户名或密码错误(1)
+2020-07-16 10:22:45,649 Test_login.py[line:44] INFO-> 验证码不正确(401)
+2020-07-16 10:22:46,271 login_page.py[line:59] INFO-> msg:验证码不正确(401)
+2020-07-16 10:22:52,118 login_page.py[line:46] INFO-> spsp
+2020-07-16 10:22:53,253 index_page.py[line:22] INFO-> 体验用户test
+2020-07-16 10:22:58,639 Test_login.py[line:54] INFO-> 12312312131
+2020-07-16 10:23:04,681 BasePage.py[line:160] INFO-> 强制等待： 1 seconds
+2020-07-16 10:23:04,684 tool.py[line:43] INFO-> 上传文件地址：C:\Users\admin\Pictures\Test_img\750x750.jpg
+2020-07-16 10:27:09,796 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '错误的账号', 'username': 'zhaofy', 'password': '123456', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的密码', 'username': 'user', 'password': '1111111', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的图片验证码', 'username': 'user', 'password': '123456', 'access_token': '66666', 'assert': '验证码不正确(401)'}, {'casename': '正常登陆', 'username': 'user', 'password': '123456', 'access_token': None, 'assert': '$index_page.button_top_right_user()'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 10:27:09,810 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '正常添加一级分类', 'g_name': 'Autotest_测试类目名称', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 1111}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 10:27:19,759 login_page.py[line:46] INFO-> eqvw
+2020-07-16 10:27:20,318 Test_login.py[line:44] INFO-> 用户名或密码错误(1)
+2020-07-16 10:27:21,117 login_page.py[line:59] INFO-> msg:用户名或密码错误(1)
+2020-07-16 10:27:26,869 login_page.py[line:46] INFO-> cq3k
+2020-07-16 10:27:27,245 Test_login.py[line:44] INFO-> 用户名或密码错误(1)
+2020-07-16 10:27:28,037 login_page.py[line:59] INFO-> msg:用户名或密码错误(1)
+2020-07-16 10:27:34,240 Test_login.py[line:44] INFO-> 验证码不正确(401)
+2020-07-16 10:27:34,837 login_page.py[line:59] INFO-> msg:验证码不正确(401)
+2020-07-16 10:27:40,532 login_page.py[line:46] INFO-> zcpd
+2020-07-16 10:27:41,605 index_page.py[line:22] INFO-> 体验用户test
+2020-07-16 10:27:47,032 Test_login.py[line:54] INFO-> 12312312131
+2020-07-16 10:27:52,667 BasePage.py[line:160] INFO-> 强制等待： 1 seconds
+2020-07-16 10:27:52,667 tool.py[line:43] INFO-> 上传文件地址：C:\Users\admin\Pictures\Test_img\750x750.jpg
+2020-07-16 10:27:56,812 BasePage.py[line:160] INFO-> 强制等待： 3 seconds
+2020-07-16 10:28:01,482 BasePage.py[line:160] INFO-> 强制等待： 3 seconds
+2020-07-16 10:28:04,730 BasePage.py[line:160] INFO-> 强制等待： 3 seconds
+2020-07-16 10:28:06,880 Test_login.py[line:29] INFO-> ----------TestCase.Test_login执行完毕，关闭浏览器----------
+2020-07-16 15:31:13,472 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '错误的账号', 'username': 'zhaofy', 'password': '123456', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的密码', 'username': 'user', 'password': '1111111', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的图片验证码', 'username': 'user', 'password': '123456', 'access_token': '66666', 'assert': '验证码不正确(401)'}, {'casename': '正常登陆', 'username': 'user', 'password': '123456', 'access_token': None, 'assert': '$index_page.button_top_right_user()'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 15:31:13,487 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '添加分类-分类名称为空', 'g_name': None, 'g_keywords': '添加分类-分类名称为空', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.jpg', 'g_desc': '添加分类-分类名称为空', 'g_sort': 100, 'assert': '请输入分类名称'}, {'casename': '添加分类-搜索关键字为空', 'g_name': 'AT_搜索关键字为空', 'g_keywords': None, 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 100, 'assert': '请输入关键字'}, {'casename': '添加分类-分类描述为空', 'g_name': 'AT_分类描述为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': None, 'g_sort': 100, 'assert': '请输入简介说明'}, {'casename': '添加分类-排序值为空', 'g_name': '排序值为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': None, 'assert': '$检查g_name是否在列表中'}, {'casename': '正常添加一级分类', 'g_name': 'AT_测试类目名称', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 1111, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 15:31:13,502 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '修改分类', 'g_name': '美体塑形', 'g_keywords': 'autotest，一，二，三，四', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.gif', 'g_desc': '臀部吸脂能有效改善脂肪堆积问题，塑造一个丰满弹性的美臀。', 'g_sort': 100, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 15:31:21,246 login_page.py[line:58] INFO-> msg:用户名或密码错误(1)
+2020-07-16 15:31:27,715 login_page.py[line:58] INFO-> msg:用户名或密码错误(1)
+2020-07-16 15:31:33,711 login_page.py[line:58] INFO-> msg:验证码不正确(401)
+2020-07-16 15:31:39,767 index_page.py[line:22] INFO-> 体验用户test
+2020-07-16 15:31:56,289 BasePage.py[line:93] ERROR-> 元素定位失败: Message: 
+
+2020-07-16 15:31:56,647 BasePage.py[line:81] INFO-> 咔嚓！！
+2020-07-16 15:32:06,678 BasePage.py[line:135] ERROR-> Failed to click the element with Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='app']/div/div[2]/section/div/div[2]/button[2]"}
+  (Session info: chrome=83.0.4103.116)
+
+2020-07-16 15:32:07,017 BasePage.py[line:81] INFO-> 咔嚓！！
+2020-07-16 15:55:44,030 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '错误的账号', 'username': 'zhaofy', 'password': '123456', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的密码', 'username': 'user', 'password': '1111111', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的图片验证码', 'username': 'user', 'password': '123456', 'access_token': '66666', 'assert': '验证码不正确(401)'}, {'casename': '正常登陆', 'username': 'user', 'password': '123456', 'access_token': None, 'assert': '$index_page.button_top_right_user()'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 15:55:44,041 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '添加分类-分类名称为空', 'g_name': None, 'g_keywords': '添加分类-分类名称为空', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.jpg', 'g_desc': '添加分类-分类名称为空', 'g_sort': 100, 'assert': '请输入分类名称'}, {'casename': '添加分类-搜索关键字为空', 'g_name': 'AT_搜索关键字为空', 'g_keywords': None, 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 100, 'assert': '请输入关键字'}, {'casename': '添加分类-分类描述为空', 'g_name': 'AT_分类描述为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': None, 'g_sort': 100, 'assert': '请输入简介说明'}, {'casename': '添加分类-排序值为空', 'g_name': '排序值为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': None, 'assert': '$检查g_name是否在列表中'}, {'casename': '正常添加一级分类', 'g_name': 'AT_测试类目名称', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 1111, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 15:55:44,052 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '修改分类', 'g_name': '美体塑形', 'g_keywords': 'autotest，一，二，三，四', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.gif', 'g_desc': '臀部吸脂能有效改善脂肪堆积问题，塑造一个丰满弹性的美臀。', 'g_sort': 100, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 15:55:51,778 login_page.py[line:58] INFO-> msg:用户名或密码错误(1)
+2020-07-16 15:55:58,253 login_page.py[line:58] INFO-> msg:用户名或密码错误(1)
+2020-07-16 15:56:04,256 login_page.py[line:58] INFO-> msg:验证码不正确(401)
+2020-07-16 16:11:39,199 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '错误的账号', 'username': 'zhaofy', 'password': '123456', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的密码', 'username': 'user', 'password': '1111111', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的图片验证码', 'username': 'user', 'password': '123456', 'access_token': '66666', 'assert': '验证码不正确(401)'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 16:11:39,211 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '正常登陆', 'username': 'user', 'password': '123456', 'access_token': None, 'assert': '$index_page.button_top_right_user()'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 16:11:39,222 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '添加分类-分类名称为空', 'g_name': None, 'g_keywords': '添加分类-分类名称为空', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.jpg', 'g_desc': '添加分类-分类名称为空', 'g_sort': 100, 'assert': '请输入分类名称'}, {'casename': '添加分类-搜索关键字为空', 'g_name': 'AT_搜索关键字为空', 'g_keywords': None, 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 100, 'assert': '请输入关键字'}, {'casename': '添加分类-分类描述为空', 'g_name': 'AT_分类描述为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': None, 'g_sort': 100, 'assert': '请输入简介说明'}, {'casename': '添加分类-排序值为空', 'g_name': '排序值为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': None, 'assert': '$检查g_name是否在列表中'}, {'casename': '正常添加一级分类', 'g_name': 'AT_测试类目名称', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 1111, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 16:11:39,233 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '修改分类', 'g_name': '美体塑形', 'g_keywords': 'autotest，一，二，三，四', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.gif', 'g_desc': '臀部吸脂能有效改善脂肪堆积问题，塑造一个丰满弹性的美臀。', 'g_sort': 100, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 16:11:46,882 login_page.py[line:58] INFO-> msg:用户名或密码错误(1)
+2020-07-16 16:11:53,341 login_page.py[line:58] INFO-> msg:用户名或密码错误(1)
+2020-07-16 16:11:59,351 login_page.py[line:58] INFO-> msg:验证码不正确(401)
+2020-07-16 16:12:14,887 BasePage.py[line:93] ERROR-> 元素定位失败: Message: 
+
+2020-07-16 16:12:15,257 BasePage.py[line:81] INFO-> 咔嚓！！
+2020-07-16 16:12:25,308 BasePage.py[line:135] ERROR-> Failed to click the element with Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='app']/div/div/div/div/div/ul/div[2]/li/div"}
+  (Session info: chrome=83.0.4103.116)
+
+2020-07-16 16:12:25,665 BasePage.py[line:81] INFO-> 咔嚓！！
+2020-07-16 16:12:52,138 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '错误的账号', 'username': 'zhaofy', 'password': '123456', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的密码', 'username': 'user', 'password': '1111111', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的图片验证码', 'username': 'user', 'password': '123456', 'access_token': '66666', 'assert': '验证码不正确(401)'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 16:12:52,150 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '正常登陆', 'username': 'user', 'password': '123456', 'access_token': None, 'assert': '$index_page.button_top_right_user()'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 16:12:52,163 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '添加分类-分类名称为空', 'g_name': None, 'g_keywords': '添加分类-分类名称为空', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.jpg', 'g_desc': '添加分类-分类名称为空', 'g_sort': 100, 'assert': '请输入分类名称'}, {'casename': '添加分类-搜索关键字为空', 'g_name': 'AT_搜索关键字为空', 'g_keywords': None, 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 100, 'assert': '请输入关键字'}, {'casename': '添加分类-分类描述为空', 'g_name': 'AT_分类描述为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': None, 'g_sort': 100, 'assert': '请输入简介说明'}, {'casename': '添加分类-排序值为空', 'g_name': '排序值为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': None, 'assert': '$检查g_name是否在列表中'}, {'casename': '正常添加一级分类', 'g_name': 'AT_测试类目名称', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 1111, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 16:12:52,174 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '修改分类', 'g_name': '美体塑形', 'g_keywords': 'autotest，一，二，三，四', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.gif', 'g_desc': '臀部吸脂能有效改善脂肪堆积问题，塑造一个丰满弹性的美臀。', 'g_sort': 100, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 16:12:59,952 login_page.py[line:58] INFO-> msg:用户名或密码错误(1)
+2020-07-16 16:13:06,442 login_page.py[line:58] INFO-> msg:用户名或密码错误(1)
+2020-07-16 16:13:12,450 login_page.py[line:58] INFO-> msg:验证码不正确(401)
+2020-07-16 16:13:27,958 BasePage.py[line:93] ERROR-> 元素定位失败: Message: 
+
+2020-07-16 16:13:28,317 BasePage.py[line:81] INFO-> 咔嚓！！
+2020-07-16 16:13:39,839 BasePage.py[line:93] ERROR-> 元素定位失败: Message: 
+
+2020-07-16 16:13:40,196 BasePage.py[line:81] INFO-> 咔嚓！！
+2020-07-16 16:16:57,586 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '错误的账号', 'username': 'zhaofy', 'password': '123456', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的密码', 'username': 'user', 'password': '1111111', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的图片验证码', 'username': 'user', 'password': '123456', 'access_token': '66666', 'assert': '验证码不正确(401)'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 16:16:57,598 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '正常登陆', 'username': 'user', 'password': '123456', 'access_token': None, 'assert': '$index_page.button_top_right_user()'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 16:16:57,614 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '添加分类-分类名称为空', 'g_name': None, 'g_keywords': '添加分类-分类名称为空', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.jpg', 'g_desc': '添加分类-分类名称为空', 'g_sort': 100, 'assert': '请输入分类名称'}, {'casename': '添加分类-搜索关键字为空', 'g_name': 'AT_搜索关键字为空', 'g_keywords': None, 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 100, 'assert': '请输入关键字'}, {'casename': '添加分类-分类描述为空', 'g_name': 'AT_分类描述为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': None, 'g_sort': 100, 'assert': '请输入简介说明'}, {'casename': '添加分类-排序值为空', 'g_name': '排序值为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': None, 'assert': '$检查g_name是否在列表中'}, {'casename': '正常添加一级分类', 'g_name': 'AT_测试类目名称', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 1111, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 16:16:57,628 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '修改分类', 'g_name': '美体塑形', 'g_keywords': 'autotest，一，二，三，四', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.gif', 'g_desc': '臀部吸脂能有效改善脂肪堆积问题，塑造一个丰满弹性的美臀。', 'g_sort': 100, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 16:17:05,317 login_page.py[line:58] INFO-> msg:用户名或密码错误(1)
+2020-07-16 16:17:11,822 login_page.py[line:58] INFO-> msg:用户名或密码错误(1)
+2020-07-16 16:17:17,826 login_page.py[line:58] INFO-> msg:验证码不正确(401)
+2020-07-16 16:19:06,176 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '错误的账号', 'username': 'zhaofy', 'password': '123456', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的密码', 'username': 'user', 'password': '1111111', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的图片验证码', 'username': 'user', 'password': '123456', 'access_token': '66666', 'assert': '验证码不正确(401)'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 16:19:06,189 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '正常登陆', 'username': 'user', 'password': '123456', 'access_token': None, 'assert': '$index_page.button_top_right_user()'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 16:19:06,202 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '添加分类-分类名称为空', 'g_name': None, 'g_keywords': '添加分类-分类名称为空', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.jpg', 'g_desc': '添加分类-分类名称为空', 'g_sort': 100, 'assert': '请输入分类名称'}, {'casename': '添加分类-搜索关键字为空', 'g_name': 'AT_搜索关键字为空', 'g_keywords': None, 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 100, 'assert': '请输入关键字'}, {'casename': '添加分类-分类描述为空', 'g_name': 'AT_分类描述为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': None, 'g_sort': 100, 'assert': '请输入简介说明'}, {'casename': '添加分类-排序值为空', 'g_name': '排序值为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': None, 'assert': '$检查g_name是否在列表中'}, {'casename': '正常添加一级分类', 'g_name': 'AT_测试类目名称', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 1111, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 16:19:06,214 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '修改分类', 'g_name': '美体塑形', 'g_keywords': 'autotest，一，二，三，四', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.gif', 'g_desc': '臀部吸脂能有效改善脂肪堆积问题，塑造一个丰满弹性的美臀。', 'g_sort': 100, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 16:19:13,967 login_page.py[line:58] INFO-> msg:用户名或密码错误(1)
+2020-07-16 16:19:20,471 login_page.py[line:58] INFO-> msg:用户名或密码错误(1)
+2020-07-16 16:19:26,482 login_page.py[line:58] INFO-> msg:验证码不正确(401)
+2020-07-16 16:21:45,556 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '错误的账号', 'username': 'zhaofy', 'password': '123456', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的密码', 'username': 'user', 'password': '1111111', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的图片验证码', 'username': 'user', 'password': '123456', 'access_token': '66666', 'assert': '验证码不正确(401)'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 16:21:45,569 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '正常登陆', 'username': 'user', 'password': '123456', 'access_token': None, 'assert': '$index_page.button_top_right_user()'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 16:21:45,580 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '添加分类-分类名称为空', 'g_name': None, 'g_keywords': '添加分类-分类名称为空', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.jpg', 'g_desc': '添加分类-分类名称为空', 'g_sort': 100, 'assert': '请输入分类名称'}, {'casename': '添加分类-搜索关键字为空', 'g_name': 'AT_搜索关键字为空', 'g_keywords': None, 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 100, 'assert': '请输入关键字'}, {'casename': '添加分类-分类描述为空', 'g_name': 'AT_分类描述为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': None, 'g_sort': 100, 'assert': '请输入简介说明'}, {'casename': '添加分类-排序值为空', 'g_name': '排序值为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': None, 'assert': '$检查g_name是否在列表中'}, {'casename': '正常添加一级分类', 'g_name': 'AT_测试类目名称', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 1111, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 16:21:45,596 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '修改分类', 'g_name': '美体塑形', 'g_keywords': 'autotest，一，二，三，四', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.gif', 'g_desc': '臀部吸脂能有效改善脂肪堆积问题，塑造一个丰满弹性的美臀。', 'g_sort': 100, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 16:21:53,237 login_page.py[line:58] INFO-> msg:用户名或密码错误(1)
+2020-07-16 16:21:59,764 login_page.py[line:58] INFO-> msg:用户名或密码错误(1)
+2020-07-16 16:22:05,823 login_page.py[line:58] INFO-> msg:验证码不正确(401)
+2020-07-16 16:25:23,693 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '错误的账号', 'username': 'zhaofy', 'password': '123456', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的密码', 'username': 'user', 'password': '1111111', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的图片验证码', 'username': 'user', 'password': '123456', 'access_token': '66666', 'assert': '验证码不正确(401)'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 16:25:23,706 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '正常登陆', 'username': 'user', 'password': '123456', 'access_token': None, 'assert': '$index_page.button_top_right_user()'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 16:25:23,718 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '添加分类-分类名称为空', 'g_name': None, 'g_keywords': '添加分类-分类名称为空', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.jpg', 'g_desc': '添加分类-分类名称为空', 'g_sort': 100, 'assert': '请输入分类名称'}, {'casename': '添加分类-搜索关键字为空', 'g_name': 'AT_搜索关键字为空', 'g_keywords': None, 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 100, 'assert': '请输入关键字'}, {'casename': '添加分类-分类描述为空', 'g_name': 'AT_分类描述为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': None, 'g_sort': 100, 'assert': '请输入简介说明'}, {'casename': '添加分类-排序值为空', 'g_name': '排序值为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': None, 'assert': '$检查g_name是否在列表中'}, {'casename': '正常添加一级分类', 'g_name': 'AT_测试类目名称', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 1111, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 16:25:23,730 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '修改分类', 'g_name': '美体塑形', 'g_keywords': 'autotest，一，二，三，四', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.gif', 'g_desc': '臀部吸脂能有效改善脂肪堆积问题，塑造一个丰满弹性的美臀。', 'g_sort': 100, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 16:25:31,576 login_page.py[line:58] INFO-> msg:用户名或密码错误(1)
+2020-07-16 16:25:37,788 login_page.py[line:58] INFO-> msg:验证码不正确(401)
+2020-07-16 16:25:39,762 login_page.py[line:58] INFO-> msg:验证码不正确(401)
+2020-07-16 16:30:06,541 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '错误的账号', 'username': 'zhaofy', 'password': '123456', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的密码', 'username': 'user', 'password': '1111111', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的图片验证码', 'username': 'user', 'password': '123456', 'access_token': '66666', 'assert': '验证码不正确(401)'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 16:30:06,557 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '正常登陆', 'username': 'user', 'password': '123456', 'access_token': None, 'assert': '$index_page.button_top_right_user()'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 16:30:06,572 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '添加分类-分类名称为空', 'g_name': None, 'g_keywords': '添加分类-分类名称为空', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.jpg', 'g_desc': '添加分类-分类名称为空', 'g_sort': 100, 'assert': '请输入分类名称'}, {'casename': '添加分类-搜索关键字为空', 'g_name': 'AT_搜索关键字为空', 'g_keywords': None, 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 100, 'assert': '请输入关键字'}, {'casename': '添加分类-分类描述为空', 'g_name': 'AT_分类描述为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': None, 'g_sort': 100, 'assert': '请输入简介说明'}, {'casename': '添加分类-排序值为空', 'g_name': '排序值为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': None, 'assert': '$检查g_name是否在列表中'}, {'casename': '正常添加一级分类', 'g_name': 'AT_测试类目名称', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 1111, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 16:30:06,587 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '修改分类', 'g_name': '美体塑形', 'g_keywords': 'autotest，一，二，三，四', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.gif', 'g_desc': '臀部吸脂能有效改善脂肪堆积问题，塑造一个丰满弹性的美臀。', 'g_sort': 100, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 16:30:14,317 login_page.py[line:58] INFO-> msg:用户名或密码错误(1)
+2020-07-16 16:30:20,820 login_page.py[line:58] INFO-> msg:用户名或密码错误(1)
+2020-07-16 16:30:26,851 login_page.py[line:58] INFO-> msg:验证码不正确(401)
+2020-07-16 16:30:33,424 index_page.py[line:21] INFO-> 体验用户test
+2020-07-16 16:30:50,884 Test_login.py[line:30] INFO-> ----------Test_login执行完毕，关闭浏览器----------
+2020-07-16 16:37:13,795 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '错误的账号', 'username': 'zhaofy', 'password': '123456', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的密码', 'username': 'user', 'password': '1111111', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的图片验证码', 'username': 'user', 'password': '123456', 'access_token': '66666', 'assert': '验证码不正确(401)'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 16:37:13,806 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '正常登陆', 'username': 'user', 'password': '123456', 'access_token': None, 'assert': '$index_page.button_top_right_user()'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 16:37:13,818 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '添加分类-分类名称为空', 'g_name': None, 'g_keywords': '添加分类-分类名称为空', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.jpg', 'g_desc': '添加分类-分类名称为空', 'g_sort': 100, 'assert': '请输入分类名称'}, {'casename': '添加分类-搜索关键字为空', 'g_name': 'AT_搜索关键字为空', 'g_keywords': None, 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 100, 'assert': '请输入关键字'}, {'casename': '添加分类-分类描述为空', 'g_name': 'AT_分类描述为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': None, 'g_sort': 100, 'assert': '请输入简介说明'}, {'casename': '添加分类-排序值为空', 'g_name': '排序值为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': None, 'assert': '$检查g_name是否在列表中'}, {'casename': '正常添加一级分类', 'g_name': 'AT_测试类目名称', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 1111, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 16:37:13,830 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '修改分类', 'g_name': '美体塑形', 'g_keywords': 'autotest，一，二，三，四', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.gif', 'g_desc': '臀部吸脂能有效改善脂肪堆积问题，塑造一个丰满弹性的美臀。', 'g_sort': 100, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 16:37:21,597 login_page.py[line:58] INFO-> msg:用户名或密码错误(1)
+2020-07-16 16:37:28,116 login_page.py[line:58] INFO-> msg:用户名或密码错误(1)
+2020-07-16 16:37:34,082 login_page.py[line:58] INFO-> msg:验证码不正确(401)
+2020-07-16 16:37:40,673 index_page.py[line:21] INFO-> 体验用户test
+2020-07-16 16:37:54,109 BasePage.py[line:175] INFO-> 强制等待： 0 seconds
+2020-07-16 16:37:54,624 BasePage.py[line:175] INFO-> 强制等待： 0 seconds
+2020-07-16 16:37:55,136 BasePage.py[line:175] INFO-> 强制等待： 0 seconds
+2020-07-16 16:37:55,649 BasePage.py[line:175] INFO-> 强制等待： 0 seconds
+2020-07-16 16:37:56,163 BasePage.py[line:175] INFO-> 强制等待： 0 seconds
+2020-07-16 16:37:56,675 BasePage.py[line:175] INFO-> 强制等待： 0 seconds
+2020-07-16 16:37:57,186 BasePage.py[line:175] INFO-> 强制等待： 0 seconds
+2020-07-16 16:37:57,700 BasePage.py[line:175] INFO-> 强制等待： 0 seconds
+2020-07-16 16:37:58,213 BasePage.py[line:175] INFO-> 强制等待： 0 seconds
+2020-07-16 16:37:58,726 BasePage.py[line:175] INFO-> 强制等待： 0 seconds
+2020-07-16 16:37:59,237 BasePage.py[line:175] INFO-> 强制等待： 0 seconds
+2020-07-16 16:37:59,748 BasePage.py[line:175] INFO-> 强制等待： 0 seconds
+2020-07-16 16:38:00,259 BasePage.py[line:175] INFO-> 强制等待： 0 seconds
+2020-07-16 16:38:00,775 BasePage.py[line:175] INFO-> 强制等待： 0 seconds
+2020-07-16 16:38:01,291 BasePage.py[line:175] INFO-> 强制等待： 0 seconds
+2020-07-16 16:38:01,803 BasePage.py[line:175] INFO-> 强制等待： 0 seconds
+2020-07-16 16:38:02,316 BasePage.py[line:175] INFO-> 强制等待： 0 seconds
+2020-07-16 16:38:02,827 BasePage.py[line:175] INFO-> 强制等待： 0 seconds
+2020-07-16 16:38:03,345 BasePage.py[line:175] INFO-> 强制等待： 0 seconds
+2020-07-16 16:38:03,856 BasePage.py[line:175] INFO-> 强制等待： 0 seconds
+2020-07-16 16:38:04,371 BasePage.py[line:175] INFO-> 强制等待： 0 seconds
+2020-07-16 16:38:04,882 BasePage.py[line:175] INFO-> 强制等待： 0 seconds
+2020-07-16 16:38:05,393 BasePage.py[line:175] INFO-> 强制等待： 0 seconds
+2020-07-16 16:38:05,905 BasePage.py[line:175] INFO-> 强制等待： 0 seconds
+2020-07-16 16:38:06,419 BasePage.py[line:175] INFO-> 强制等待： 0 seconds
+2020-07-16 16:38:06,933 BasePage.py[line:175] INFO-> 强制等待： 0 seconds
+2020-07-16 16:38:07,445 BasePage.py[line:175] INFO-> 强制等待： 0 seconds
+2020-07-16 16:45:02,168 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '错误的账号', 'username': 'zhaofy', 'password': '123456', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的密码', 'username': 'user', 'password': '1111111', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的图片验证码', 'username': 'user', 'password': '123456', 'access_token': '66666', 'assert': '验证码不正确(401)'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 16:45:02,181 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '正常登陆', 'username': 'user', 'password': '123456', 'access_token': None, 'assert': '$index_page.button_top_right_user()'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 16:45:02,192 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '添加分类-分类名称为空', 'g_name': None, 'g_keywords': '添加分类-分类名称为空', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.jpg', 'g_desc': '添加分类-分类名称为空', 'g_sort': 100, 'assert': '请输入分类名称'}, {'casename': '添加分类-搜索关键字为空', 'g_name': 'AT_搜索关键字为空', 'g_keywords': None, 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 100, 'assert': '请输入关键字'}, {'casename': '添加分类-分类描述为空', 'g_name': 'AT_分类描述为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': None, 'g_sort': 100, 'assert': '请输入简介说明'}, {'casename': '添加分类-排序值为空', 'g_name': '排序值为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': None, 'assert': '$检查g_name是否在列表中'}, {'casename': '正常添加一级分类', 'g_name': 'AT_测试类目名称', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 1111, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 16:45:02,203 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '修改分类', 'g_name': '美体塑形', 'g_keywords': 'autotest，一，二，三，四', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.gif', 'g_desc': '臀部吸脂能有效改善脂肪堆积问题，塑造一个丰满弹性的美臀。', 'g_sort': 100, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 16:45:10,019 login_page.py[line:58] INFO-> msg:用户名或密码错误(1)
+2020-07-16 16:45:16,484 login_page.py[line:58] INFO-> msg:用户名或密码错误(1)
+2020-07-16 16:45:22,493 login_page.py[line:58] INFO-> msg:验证码不正确(401)
+2020-07-16 16:45:29,063 index_page.py[line:21] INFO-> 体验用户test
+2020-07-16 16:46:02,007 Test_login.py[line:30] INFO-> ----------Test_login执行完毕，关闭浏览器----------
+2020-07-16 16:54:19,183 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '错误的账号', 'username': 'zhaofy', 'password': '123456', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的密码', 'username': 'user', 'password': '1111111', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的图片验证码', 'username': 'user', 'password': '123456', 'access_token': '66666', 'assert': '验证码不正确(401)'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 16:54:19,194 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '正常登陆', 'username': 'user', 'password': '123456', 'access_token': None, 'assert': '$index_page.button_top_right_user()'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 16:54:19,206 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '添加分类-分类名称为空', 'g_name': None, 'g_keywords': '添加分类-分类名称为空', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.jpg', 'g_desc': '添加分类-分类名称为空', 'g_sort': 100, 'assert': '请输入分类名称'}, {'casename': '添加分类-搜索关键字为空', 'g_name': 'AT_搜索关键字为空', 'g_keywords': None, 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 100, 'assert': '请输入关键字'}, {'casename': '添加分类-分类描述为空', 'g_name': 'AT_分类描述为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': None, 'g_sort': 100, 'assert': '请输入简介说明'}, {'casename': '添加分类-排序值为空', 'g_name': '排序值为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': None, 'assert': '$检查g_name是否在列表中'}, {'casename': '正常添加一级分类', 'g_name': 'AT_测试类目名称', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 1111, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 16:54:19,218 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '修改分类', 'g_name': '美体塑形', 'g_keywords': 'autotest，一，二，三，四', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.gif', 'g_desc': '臀部吸脂能有效改善脂肪堆积问题，塑造一个丰满弹性的美臀。', 'g_sort': 100, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 16:54:25,350 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:25,395 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:25,570 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:25,606 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:25,765 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:25,947 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:25,977 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:26,119 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:26,912 login_page.py[line:58] INFO-> msg:用户名或密码错误(1)
+2020-07-16 16:54:31,915 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:31,940 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:32,079 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:32,106 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:32,280 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:32,456 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:32,483 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:32,642 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:33,517 login_page.py[line:58] INFO-> msg:用户名或密码错误(1)
+2020-07-16 16:54:38,520 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:38,543 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:38,661 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:38,683 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:38,817 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:38,841 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:38,955 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:39,571 login_page.py[line:58] INFO-> msg:验证码不正确(401)
+2020-07-16 16:54:44,573 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:44,600 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:44,723 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:44,748 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:44,874 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:45,061 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:45,084 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:45,196 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:46,204 index_page.py[line:21] INFO-> 体验用户test
+2020-07-16 16:54:47,206 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:47,280 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:48,444 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:48,625 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:49,175 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:49,428 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:49,460 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:49,728 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:49,756 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:49,889 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:49,988 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:51,984 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:52,095 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:52,141 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:52,470 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:52,494 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:52,910 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:52,940 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:53,073 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:53,169 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:55,147 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:55,249 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:55,288 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:55,591 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:55,621 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:56,072 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:56,095 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:56,224 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:56,315 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:58,310 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:58,430 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:58,468 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:58,765 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:58,796 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:59,316 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:59,344 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:59,780 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:54:59,867 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:55:01,942 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:55:02,037 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:55:02,074 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:55:02,347 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:55:02,381 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:55:02,778 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:55:02,799 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:55:03,106 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:55:03,130 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:55:03,278 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:55:03,375 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:55:34,933 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:55:35,057 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:55:35,116 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:55:35,388 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:55:35,419 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:55:35,725 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:55:35,754 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:55:36,209 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:55:36,239 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:55:36,370 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:55:36,470 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 16:56:07,412 Test_login.py[line:30] INFO-> ----------Test_login执行完毕，关闭浏览器----------
+2020-07-16 17:04:31,635 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '错误的账号', 'username': 'zhaofy', 'password': '123456', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的密码', 'username': 'user', 'password': '1111111', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的图片验证码', 'username': 'user', 'password': '123456', 'access_token': '66666', 'assert': '验证码不正确(401)'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 17:04:31,646 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '正常登陆', 'username': 'user', 'password': '123456', 'access_token': None, 'assert': '$index_page.button_top_right_user()'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 17:04:31,657 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '添加分类-分类名称为空', 'g_name': None, 'g_keywords': '添加分类-分类名称为空', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.jpg', 'g_desc': '添加分类-分类名称为空', 'g_sort': 100, 'assert': '请输入分类名称'}, {'casename': '添加分类-搜索关键字为空', 'g_name': 'AT_搜索关键字为空', 'g_keywords': None, 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 100, 'assert': '请输入关键字'}, {'casename': '添加分类-分类描述为空', 'g_name': 'AT_分类描述为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': None, 'g_sort': 100, 'assert': '请输入简介说明'}, {'casename': '添加分类-排序值为空', 'g_name': '排序值为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': None, 'assert': '$检查g_name是否在列表中'}, {'casename': '正常添加一级分类', 'g_name': 'AT_测试类目名称', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 1111, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 17:04:31,668 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '修改分类', 'g_name': '美体塑形', 'g_keywords': 'autotest，一，二，三，四', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.gif', 'g_desc': '臀部吸脂能有效改善脂肪堆积问题，塑造一个丰满弹性的美臀。', 'g_sort': 100, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 17:04:37,913 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:37,955 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:38,132 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:38,162 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:38,325 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:38,498 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:38,527 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:38,670 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:39,343 login_page.py[line:58] INFO-> msg:验证码不正确(401)
+2020-07-16 17:04:40,347 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:40,372 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:40,493 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:40,517 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:40,655 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:40,889 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:40,911 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:41,031 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:41,612 login_page.py[line:58] INFO-> msg:验证码不正确(401)
+2020-07-16 17:04:42,622 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:42,645 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:42,769 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:42,791 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:42,918 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:42,940 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:43,072 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:43,657 login_page.py[line:58] INFO-> msg:验证码不正确(401)
+2020-07-16 17:04:48,660 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:48,682 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:48,811 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:48,834 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:48,962 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:49,140 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:49,161 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:49,273 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:50,280 index_page.py[line:21] INFO-> 体验用户test
+2020-07-16 17:04:51,281 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:51,365 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:52,527 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:52,698 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:53,247 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:53,505 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:53,535 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:53,789 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:53,819 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:53,961 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:54,060 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:56,088 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:56,208 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:56,251 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:56,587 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:56,616 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:57,000 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:57,026 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:57,169 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:57,265 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:59,262 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:59,370 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:59,416 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:59,745 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:04:59,771 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:00,274 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:00,296 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:00,439 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:00,551 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:02,553 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:02,677 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:02,712 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:02,955 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:02,993 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:03,507 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:03,530 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:03,937 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:04,032 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:07,403 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:07,507 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:07,550 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:07,874 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:07,903 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:08,350 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:08,371 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:08,735 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:08,759 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:08,906 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:09,001 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:10,550 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:10,652 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:10,690 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:10,969 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:10,992 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:11,254 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:11,280 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:11,725 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:11,748 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:11,870 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:11,967 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:05:13,543 Test_login.py[line:30] INFO-> ----------Test_login执行完毕，关闭浏览器----------
+2020-07-16 17:06:20,094 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '错误的账号', 'username': 'zhaofy', 'password': '123456', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的密码', 'username': 'user', 'password': '1111111', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的图片验证码', 'username': 'user', 'password': '123456', 'access_token': '66666', 'assert': '验证码不正确(401)'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 17:06:20,131 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '正常登陆', 'username': 'user', 'password': '123456', 'access_token': None, 'assert': '$index_page.button_top_right_user()'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 17:06:20,168 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '添加分类-分类名称为空', 'g_name': None, 'g_keywords': '添加分类-分类名称为空', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.jpg', 'g_desc': '添加分类-分类名称为空', 'g_sort': 100, 'assert': '请输入分类名称'}, {'casename': '添加分类-搜索关键字为空', 'g_name': 'AT_搜索关键字为空', 'g_keywords': None, 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 100, 'assert': '请输入关键字'}, {'casename': '添加分类-分类描述为空', 'g_name': 'AT_分类描述为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': None, 'g_sort': 100, 'assert': '请输入简介说明'}, {'casename': '添加分类-排序值为空', 'g_name': '排序值为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': None, 'assert': '$检查g_name是否在列表中'}, {'casename': '正常添加一级分类', 'g_name': 'AT_测试类目名称', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 1111, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 17:06:20,209 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '修改分类', 'g_name': '美体塑形', 'g_keywords': 'autotest，一，二，三，四', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.gif', 'g_desc': '臀部吸脂能有效改善脂肪堆积问题，塑造一个丰满弹性的美臀。', 'g_sort': 100, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 17:06:26,351 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:26,405 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:26,645 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:26,692 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:26,877 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:27,066 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:27,102 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:27,277 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:27,950 login_page.py[line:58] INFO-> msg:验证码不正确(401)
+2020-07-16 17:06:28,958 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:28,982 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:29,117 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:29,142 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:29,287 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:29,546 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:29,570 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:29,704 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:30,282 login_page.py[line:58] INFO-> msg:验证码不正确(401)
+2020-07-16 17:06:31,287 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:31,312 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:31,443 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:31,470 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:31,613 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:31,637 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:31,762 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:32,355 login_page.py[line:58] INFO-> msg:验证码不正确(401)
+2020-07-16 17:06:37,358 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:37,382 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:37,513 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:37,536 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:37,659 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:37,857 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:37,880 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:38,000 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:38,999 index_page.py[line:21] INFO-> 体验用户test
+2020-07-16 17:06:40,002 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:40,082 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:41,245 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:41,401 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:06:41,955 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:33,730 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '错误的账号', 'username': 'zhaofy', 'password': '123456', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的密码', 'username': 'user', 'password': '1111111', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的图片验证码', 'username': 'user', 'password': '123456', 'access_token': '66666', 'assert': '验证码不正确(401)'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 17:07:33,768 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '正常登陆', 'username': 'user', 'password': '123456', 'access_token': None, 'assert': '$index_page.button_top_right_user()'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-16 17:07:33,809 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '添加分类-分类名称为空', 'g_name': None, 'g_keywords': '添加分类-分类名称为空', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.jpg', 'g_desc': '添加分类-分类名称为空', 'g_sort': 100, 'assert': '请输入分类名称'}, {'casename': '添加分类-搜索关键字为空', 'g_name': 'AT_搜索关键字为空', 'g_keywords': None, 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 100, 'assert': '请输入关键字'}, {'casename': '添加分类-分类描述为空', 'g_name': 'AT_分类描述为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': None, 'g_sort': 100, 'assert': '请输入简介说明'}, {'casename': '添加分类-排序值为空', 'g_name': '排序值为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': None, 'assert': '$检查g_name是否在列表中'}, {'casename': '正常添加一级分类', 'g_name': 'AT_测试类目名称', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 1111, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 17:07:33,846 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '修改分类', 'g_name': '美体塑形', 'g_keywords': 'autotest，一，二，三，四', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.gif', 'g_desc': '臀部吸脂能有效改善脂肪堆积问题，塑造一个丰满弹性的美臀。', 'g_sort': 100, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-16 17:07:40,001 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:40,049 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:40,234 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:40,268 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:40,435 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:40,640 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:40,671 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:40,818 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:41,676 login_page.py[line:58] INFO-> msg:用户名或密码错误(1)
+2020-07-16 17:07:46,679 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:46,704 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:46,830 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:46,854 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:46,996 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:47,184 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:47,213 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:47,354 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:48,219 login_page.py[line:58] INFO-> msg:用户名或密码错误(1)
+2020-07-16 17:07:53,223 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:53,249 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:53,376 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:53,402 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:53,540 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:53,566 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:53,694 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:54,327 login_page.py[line:58] INFO-> msg:验证码不正确(401)
+2020-07-16 17:07:59,330 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:59,355 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:59,478 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:59,504 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:59,656 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:59,825 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:59,851 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:07:59,986 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:08:01,015 index_page.py[line:21] INFO-> 体验用户test
+2020-07-16 17:08:02,018 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:08:02,102 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:08:03,274 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:08:03,460 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:08:03,508 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:08:20,503 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:08:43,957 BasePage.py[line:157] INFO-> ---上传分类图片：C:\Users\admin\Pictures\Test_img\450x450.jpg
+2020-07-16 17:08:47,577 tool.py[line:43] INFO-> 上传文件地址：C:\Users\admin\Pictures\Test_img\450x450.jpg
+2020-07-16 17:09:03,798 tool.py[line:69] INFO-> -----文件上传完成：C:\Users\admin\Pictures\Test_img\450x450.jpg
+2020-07-16 17:09:15,680 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:09:15,724 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:09:16,013 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:09:16,063 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:09:16,230 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:09:16,365 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:09:18,405 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:09:18,533 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:09:18,601 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:09:22,944 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:09:24,046 BasePage.py[line:157] INFO-> ---上传分类图片：C:\Users\admin\Pictures\Test_img\750x750.jpg
+2020-07-16 17:09:24,047 tool.py[line:43] INFO-> 上传文件地址：C:\Users\admin\Pictures\Test_img\750x750.jpg
+2020-07-16 17:09:25,114 tool.py[line:69] INFO-> -----文件上传完成：C:\Users\admin\Pictures\Test_img\750x750.jpg
+2020-07-16 17:09:48,010 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:09:48,057 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:09:48,508 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:09:48,554 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:09:48,738 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:09:48,864 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:09:50,903 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:09:51,045 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:09:51,106 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:09:51,417 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:09:51,463 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:09:58,856 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:09:59,958 BasePage.py[line:157] INFO-> ---上传分类图片：C:\Users\admin\Pictures\Test_img\750x750.jpg
+2020-07-16 17:09:59,959 tool.py[line:43] INFO-> 上传文件地址：C:\Users\admin\Pictures\Test_img\750x750.jpg
+2020-07-16 17:10:01,036 tool.py[line:69] INFO-> -----文件上传完成：C:\Users\admin\Pictures\Test_img\750x750.jpg
+2020-07-16 17:10:02,039 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:02,077 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:02,259 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:02,384 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:04,424 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:04,562 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:04,635 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:04,920 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:04,961 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:10,650 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:11,757 BasePage.py[line:157] INFO-> ---上传分类图片：C:\Users\admin\Pictures\Test_img\750x750.jpg
+2020-07-16 17:10:11,759 tool.py[line:43] INFO-> 上传文件地址：C:\Users\admin\Pictures\Test_img\750x750.jpg
+2020-07-16 17:10:12,823 tool.py[line:69] INFO-> -----文件上传完成：C:\Users\admin\Pictures\Test_img\750x750.jpg
+2020-07-16 17:10:13,828 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:13,872 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:14,296 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:14,409 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:17,317 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:17,459 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:17,527 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:17,843 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:17,886 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:37,122 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:38,251 BasePage.py[line:157] INFO-> ---上传分类图片：C:\Users\admin\Pictures\Test_img\750x750.jpg
+2020-07-16 17:10:38,254 tool.py[line:43] INFO-> 上传文件地址：C:\Users\admin\Pictures\Test_img\750x750.jpg
+2020-07-16 17:10:39,319 tool.py[line:69] INFO-> -----文件上传完成：C:\Users\admin\Pictures\Test_img\750x750.jpg
+2020-07-16 17:10:40,323 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:40,368 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:40,782 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:40,825 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:41,030 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:41,166 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:44,097 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:44,244 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:44,304 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:44,587 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:44,644 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:44,997 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:46,092 BasePage.py[line:157] INFO-> ---上传分类图片：C:\Users\admin\Pictures\Test_img\450x450.gif
+2020-07-16 17:10:46,094 tool.py[line:43] INFO-> 上传文件地址：C:\Users\admin\Pictures\Test_img\450x450.gif
+2020-07-16 17:10:47,170 tool.py[line:69] INFO-> -----文件上传完成：C:\Users\admin\Pictures\Test_img\450x450.gif
+2020-07-16 17:10:48,171 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:48,223 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:48,786 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:48,829 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:49,004 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:49,151 BasePage.py[line:32] INFO-> 等待元素可见
+2020-07-16 17:10:51,294 Test_login.py[line:30] INFO-> ----------Test_login执行完毕，关闭浏览器----------
