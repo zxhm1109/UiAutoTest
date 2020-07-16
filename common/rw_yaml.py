@@ -5,31 +5,37 @@
 # @File      : rw_yaml.py
 # @desc      :
 
-import yaml
-from common.DoConfig import ReadConfig
+import yaml, os
+from common.DoConfig import *
+from common.logger import Mylog
+
+logger = Mylog()
 
 
 class DoYaml:
 
     def __init__(self):
-        self.yamlpath = ReadConfig.read_config('file_path', 'yaml_path')
+        self.yamlpath = Get_path.get_yaml_path()
 
     def read(self, section=None, option=None):
-        parh='../Data/page_data.yaml'
+        parh = self.yamlpath
         with open(parh, encoding='utf-8')as f:
             res = yaml.load(f, Loader=yaml.FullLoader)
         if section is None:
             return res
         else:
-            for sections, options in res.items():
-                if section not in sections:
-                    return False, "未找到section"
-                elif option is None:
-                    return res[section]
-                elif option not in options:
-                    return False, "未找到option"
-                elif option in options:
-                    return res[section][option]
+            if len(res) < 2:
+                for sections, options in res.items():
+                    if section not in sections:
+                        return False, "未找到section"
+                    elif option is None:
+                        return res[section]
+                    elif option not in options:
+                        return False, "未找到option"
+                    elif option in options:
+                        return res[section][option]
+            else:
+                return res[section]
 
     def write(self, value):
         if isinstance(value, dict):
@@ -46,7 +52,19 @@ class DoYaml:
                     print("修改成功")
 
 
+def get_case_data(casesuite):
+    casedata = []
+    url = None
+    res = DoYaml().read(casesuite)
+    for k, v in res.items():
+        if isinstance(v, dict):
+            casedata.append(v)
+        else:
+            url = v
+    logger.info('测试用例数据：{} - url:{}'.format(casedata, url))
+    return casedata, url
+
+
 if __name__ == '__main__':
-    value = {'token': ['456544654', '12312312']}
-    res = DoYaml().read('file_path')
-    print(res)
+    a = get_case_data('category')
+    print(a)

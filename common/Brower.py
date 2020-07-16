@@ -15,4 +15,7 @@ class brower:
         driver = webdriver.Chrome(r'C:\myworkfile\py_package\chromedriver.exe')
         driver.get(url)
         driver.maximize_window()
+        driver.implicitly_wait(10)
+        driver.refresh()
+
         return driver

@@ -1,13 +1,156 @@
-login:
+#登陆用例
+login_fault:
   url: "http://192.168.200.103/DEV/ssxq-web-admin/#/login"
-  username: "user"
-  password: "123456"
+  error_user_login:
+    casename: '错误的账号'
+    username: "zhaofy"
+    password: "123456"
+    access_token:
+    assert: '用户名或密码错误(1)'
+  err_password_login:
+    casename: "错误的密码"
+    username: "user"
+    password: "1111111"
+    access_token:
+    assert: '用户名或密码错误(1)'
+  err_imgcode_login:
+    casename: "错误的图片验证码"
+    username: "user"
+    password: "123456"
+    access_token: '66666'
+    assert: '验证码不正确(401)'
 
+login_succeed:
+  url: "http://192.168.200.103/DEV/ssxq-web-admin/#/login"
+  normal_login:
+    casename: "正常登陆"
+    username: "user"
+    password: "123456"
+    access_token:
+    assert: $index_page.button_top_right_user()
 
-access_token: &token
-  token: ""
+#创建一级分类用例
+category_add:
+  url: 'http://192.168.200.103/DEV/ssxq-web-admin/#/product/category'
+  no_gname_add:
+    casename: '添加分类-分类名称为空'
+    g_name:
+    g_keywords: '添加分类-分类名称为空'
+    g_img: 'C:\Users\admin\Pictures\Test_img\450x450.jpg'
+    g_desc: '添加分类-分类名称为空'
+    g_sort: 100
+    assert: '请输入分类名称'
+  no_keywords_add:
+    casename: '添加分类-搜索关键字为空'
+    g_name: 'AT_搜索关键字为空'
+    g_keywords:
+    g_img: 'C:\Users\admin\Pictures\Test_img\750x750.jpg'
+    g_desc: 'Autotest_分类描述分类描述分类描述'
+    g_sort: 100
+    assert: '请输入关键字'
+  #  no_img_add:
+  #    casename: '添加分类-分类图片为空'
+  #    g_name: 'Autotest_分类图片为空'
+  #    g_keywords: 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_'
+  #    g_img:
+  #    g_desc: 'Autotest_分类描述分类描述分类描述'
+  #    g_sort: 100
+  #    assert:
+  no_desc_add:
+    casename: '添加分类-分类描述为空'
+    g_name: 'AT_分类描述为空'
+    g_keywords: 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_'
+    g_img: 'C:\Users\admin\Pictures\Test_img\750x750.jpg'
+    g_desc:
+    g_sort: 100
+    assert: '请输入简介说明'
+#  no_sort_add:
+#    casename: '添加分类-排序值为空'
+#    g_name: '排序值为空'
+#    g_keywords: 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_'
+#    g_img: 'C:\Users\admin\Pictures\Test_img\750x750.jpg'
+#    g_desc: 'Autotest_分类描述分类描述分类描述'
+#    g_sort:
+#    assert: $检查g_name是否在列表中
+  normal_add_category:
+    casename: '正常添加一级分类'
+    g_name: 'AT_测试类目名称'
+    g_keywords: 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_'
+    g_img: 'C:\Users\admin\Pictures\Test_img\750x750.jpg'
+    g_desc: 'Autotest_分类描述分类描述分类描述'
+    g_sort: 1111
+    assert: $检查g_name是否在列表中
 
+#修改一级分类用例
+category_edit:
+  url: 'http://192.168.200.103/DEV/ssxq-web-admin/#/product/category'
+  no_gname_add:
+    casename: '修改分类'
+    g_name: '美体塑形T'
+    g_keywords: 'autotest，一，二，三，四'
+    g_img: 'C:\Users\admin\Pictures\Test_img\国产瘦身.png'
+    g_desc: '臀部吸脂能有效改善脂肪堆积问题，塑造一个丰满弹性的美臀。'
+    g_sort: 100
+    assert: $检查g_name是否在列表中
+#  no_keywords_add:
+#    casename: '编辑分类-搜索关键字为空'
+#    g_name: 'Autotest_测试类目名称'
+#    g_keywords: 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_'
+#    g_img: 'C:\Users\admin\Pictures\Test_img\750x750.jpg'
+#    g_desc: 'Autotest_分类描述分类描述分类描述'
+#    g_sort: 100
+#    assert: '请输入关键字'
+  #  no_img_add:
+  #    casename: '编辑分类-分类图片为空'
+  #    g_name: 'Autotest_测试类目名称'
+  #    g_keywords: 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_'
+  #    g_img: 'C:\Users\admin\Pictures\Test_img\450x450.gif'
+  #    g_desc: 'Autotest_分类描述分类描述分类描述'
+  #    g_sort: 100
+  #    assert:
+#  no_desc_add:
+#    casename: '编辑分类-分类描述为空'
+#    g_name: 'Autotest_测试类目名称'
+#    g_keywords: 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_'
+#    g_img: 'C:\Users\admin\Pictures\Test_img\750x750.jpg'
+#    g_desc:
+#    g_sort: 100
+#    assert: '请输入简介说明'
+#  no_sort_add:
+#    casename: '编辑分类-排序值为空'
+#    g_name: 'Autotest_测试类目名称'
+#    g_keywords: 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_'
+#    g_img: 'C:\Users\admin\Pictures\Test_img\750x750.jpg'
+#    g_desc: 'Autotest_分类描述分类描述分类描述'
+#    g_sort:
+#    assert
+#  normal_add_category:
+#    casename: '正常编辑一级分类'
+#    g_name: 'Autotest_测试类目名称'
+#    g_keywords: 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_'
+#    g_img: 'C:\Users\admin\Pictures\Test_img\750x750.jpg'
+#    g_desc: 'Autotest_分类描述分类描述分类描述'
+#    g_sort: 1111
+#    assert: $
 
-token:
-- token
-- '12312312'
+category_L2_add:
+  url: 'http://192.168.200.103/DEV/ssxq-web-admin/#/product/category'
+  no_gname_add:
+    casename: '创建二级分类'
+    g_name: '中医减肥T'
+    g_keywords: 'autotest，中医减肥，二级'
+    g_img: 'C:\Users\admin\Pictures\Test_img\国产瘦身.png'
+    g_desc: '埋线减肥是针灸减肥的延伸和发展，是改良式外灸。'
+    g_sort: 100
+    assert: $检查g_name是否在列表中
+
+category_L3_add:
+  url: 'http://192.168.200.103/DEV/ssxq-web-admin/#/product/category'
+  no_gname_add:
+    casename: '创建三级分类'
+    g_name: '按摩减肥T'
+    g_keywords: 'autotest，按摩减肥，三级'
+    g_img: 'C:\Users\admin\Pictures\Test_img\点阵激光.png'
+    g_desc: '可调节脾脏的功能，加快脂肪代谢，达到瘦身减肥及养生保健功效。'
+    g_sort: 100
+    assert: $检查g_name是否在列表中

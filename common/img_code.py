@@ -110,8 +110,8 @@ password = reg[1]
 
 
 def base64_api(img):
-    with open(img,'rb') as f:
-        img=f.read()
+    with open(img, 'rb') as f:
+        img = f.read()
     # img = img.convert('RGB')
     buffered = BytesIO()
     # img.save(buffered, format="GIF")
@@ -119,18 +119,19 @@ def base64_api(img):
         b64 = str(base64.b64encode(img), encoding='utf-8')
     else:
         b64 = str(base64.b64encode(buffered.getvalue()))
-    data = {"username": username, "password": password, "image": b64,"typeid":"4"}
+    data = {"username": username, "password": password, "image": b64, "typeid": "4"}
     result = json.loads(requests.post("http://api.ttshitu.com/base64", json=data).text)
     if result['success']:
         return result["data"]["result"]
     else:
         return result["message"]
-    return ""
+
 
 def get_accountinfo():
-    data={'username':username,'password':password}
-    res=requests.get(url='http://api.ttshitu.com/queryAccountInfo.json',data=data)
+    data = {'username': username, 'password': password}
+    res = requests.get(url='http://api.ttshitu.com/queryAccountInfo.json', data=data)
     print(res.json())
+
 
 if __name__ == "__main__":
     # a = base64_api(r'C:\Users\admin\Desktop\2AF56E5B-EBCD-4C7F-AE72-1B8279E2A96A.gif')

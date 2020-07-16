@@ -62,12 +62,15 @@
 #         self.my_log(msg,'CRITICAL')
 
 
-import logging,os
-from common.DoConfig import ReadConfig
+import logging, os, time
+from common.DoConfig import *
 
-logpath=ReadConfig.read_config('file_path','log_path')
-if not os.path.exists(logpath):
-    os.makedirs(logpath)
+# logpath = os.path.abspath(os.path.dirname(__file__)).split('UiAutoTest')[0] + ReadConfig.read_config('file_path','log_path')
+# if not os.path.exists(logpath):
+#     os.makedirs(logpath)
+# log_path = os.path.join(logpath,
+#                         str(time.strftime('%Y%m%d', time.localtime())) + '_ApiTest.log')
+
 
 class Mylog(logging.Logger):
 
@@ -89,7 +92,7 @@ class Mylog(logging.Logger):
         # 初始化处理器
         # 如果file为空，就执行stream_handler,如果有，两个都执行
 
-        file_handler = logging.FileHandler(logpath,encoding='utf-8')
+        file_handler = logging.FileHandler(Get_path.get_log_path(), encoding='utf-8')
         # 设置handler级别
         file_handler.setLevel(level)
         # 添加handler
@@ -106,5 +109,4 @@ class Mylog(logging.Logger):
 logger = Mylog()
 
 if __name__ == '__main__':
-
-    pass
+    print(Get_path.get_log_path())
