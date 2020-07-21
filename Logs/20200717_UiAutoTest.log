@@ -1,0 +1,123 @@
+2020-07-17 10:48:10,451 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '错误的账号', 'username': 'zhaofy', 'password': '123456', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的密码', 'username': 'user', 'password': '1111111', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的图片验证码', 'username': 'user', 'password': '123456', 'access_token': '66666', 'assert': '验证码不正确(401)'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-17 10:48:10,467 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '正常登陆', 'username': 'user', 'password': '123456', 'access_token': None, 'assert': '$index_page.button_top_right_user()'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-17 10:48:10,480 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '添加分类-分类名称为空', 'g_name': None, 'g_keywords': '添加分类-分类名称为空', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.jpg', 'g_desc': '添加分类-分类名称为空', 'g_sort': 100, 'assert': '请输入分类名称'}, {'casename': '添加分类-搜索关键字为空', 'g_name': 'AT_搜索关键字为空', 'g_keywords': None, 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 100, 'assert': '请输入关键字'}, {'casename': '添加分类-分类描述为空', 'g_name': 'AT_分类描述为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': None, 'g_sort': 100, 'assert': '请输入简介说明'}, {'casename': '添加分类-排序值为空', 'g_name': '排序值为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': None, 'assert': '$检查g_name是否在列表中'}, {'casename': '正常添加一级分类', 'g_name': 'AT_测试类目名称', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 9, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-17 10:48:10,494 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '修改分类', 'g_name': '美体塑形T', 'g_keywords': 'autotest，一，二，三，四', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\国产瘦身.png', 'g_desc': '臀部吸脂能有效改善脂肪堆积问题，塑造一个丰满弹性的美臀。', 'g_sort': 100, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-17 10:48:10,509 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '创建二级分类', 'g_name': '中医减肥T', 'g_keywords': 'autotest，中医减肥，二级', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\国产瘦身.png', 'g_desc': '埋线减肥是针灸减肥的延伸和发展，是改良式外灸。', 'g_sort': 100, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-17 10:48:10,524 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '创建三级分类', 'g_name': '按摩减肥T', 'g_keywords': 'autotest，按摩减肥，三级', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\点阵激光.png', 'g_desc': '可调节脾脏的功能，加快脂肪代谢，达到瘦身减肥及养生保健功效。', 'g_sort': 100, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-17 10:48:18,913 login_page.py[line:58] INFO-> msg:用户名或密码错误(1)
+2020-07-17 10:48:25,471 login_page.py[line:58] INFO-> msg:用户名或密码错误(1)
+2020-07-17 10:48:31,591 login_page.py[line:58] INFO-> msg:验证码不正确(401)
+2020-07-17 10:48:38,420 index_page.py[line:21] INFO-> 体验用户
+2020-07-17 10:48:43,159 BasePage.py[line:156] INFO-> ---上传文件：C:\Users\admin\Pictures\Test_img\450x450.jpg
+2020-07-17 10:48:43,159 tool.py[line:43] INFO-> 上传文件地址：C:\Users\admin\Pictures\Test_img\450x450.jpg
+2020-07-17 10:48:44,242 tool.py[line:69] INFO-> -----文件上传完成：C:\Users\admin\Pictures\Test_img\450x450.jpg
+2020-07-17 10:48:58,328 BasePage.py[line:91] ERROR-> 元素定位失败: Message: 
+
+2020-07-17 10:48:58,682 BasePage.py[line:79] INFO-> 咔嚓！！
+2020-07-17 10:49:34,745 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '错误的账号', 'username': 'zhaofy', 'password': '123456', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的密码', 'username': 'user', 'password': '1111111', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的图片验证码', 'username': 'user', 'password': '123456', 'access_token': '66666', 'assert': '验证码不正确(401)'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-17 10:49:34,758 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '正常登陆', 'username': 'user', 'password': '123456', 'access_token': None, 'assert': '$index_page.button_top_right_user()'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-17 10:49:34,771 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '添加分类-分类名称为空', 'g_name': None, 'g_keywords': '添加分类-分类名称为空', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.jpg', 'g_desc': '添加分类-分类名称为空', 'g_sort': 100, 'assert': '请输入分类名称'}, {'casename': '添加分类-搜索关键字为空', 'g_name': 'AT_搜索关键字为空', 'g_keywords': None, 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 100, 'assert': '请输入关键字'}, {'casename': '添加分类-分类描述为空', 'g_name': 'AT_分类描述为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': None, 'g_sort': 100, 'assert': '请输入简介说明'}, {'casename': '添加分类-排序值为空', 'g_name': '排序值为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': None, 'assert': '$检查g_name是否在列表中'}, {'casename': '正常添加一级分类', 'g_name': 'AT_测试类目名称', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 9, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-17 10:49:34,783 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '修改分类', 'g_name': '美体塑形T', 'g_keywords': 'autotest，一，二，三，四', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\国产瘦身.png', 'g_desc': '臀部吸脂能有效改善脂肪堆积问题，塑造一个丰满弹性的美臀。', 'g_sort': 100, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-17 10:49:34,795 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '创建二级分类', 'g_name': '中医减肥T', 'g_keywords': 'autotest，中医减肥，二级', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\国产瘦身.png', 'g_desc': '埋线减肥是针灸减肥的延伸和发展，是改良式外灸。', 'g_sort': 100, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-17 10:49:34,808 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '创建三级分类', 'g_name': '按摩减肥T', 'g_keywords': 'autotest，按摩减肥，三级', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\点阵激光.png', 'g_desc': '可调节脾脏的功能，加快脂肪代谢，达到瘦身减肥及养生保健功效。', 'g_sort': 100, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-17 10:49:42,687 login_page.py[line:58] INFO-> msg:验证码不正确(401)
+2020-07-17 10:49:44,922 login_page.py[line:58] INFO-> msg:验证码不正确(401)
+2020-07-17 10:49:46,989 login_page.py[line:58] INFO-> msg:验证码不正确(401)
+2020-07-17 10:50:26,679 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '错误的账号', 'username': 'zhaofy', 'password': '123456', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的密码', 'username': 'user', 'password': '1111111', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的图片验证码', 'username': 'user', 'password': '123456', 'access_token': '66666', 'assert': '验证码不正确(401)'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-17 10:50:26,691 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '正常登陆', 'username': 'user', 'password': '123456', 'access_token': None, 'assert': '$index_page.button_top_right_user()'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-17 10:50:26,705 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '添加分类-分类名称为空', 'g_name': None, 'g_keywords': '添加分类-分类名称为空', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.jpg', 'g_desc': '添加分类-分类名称为空', 'g_sort': 100, 'assert': '请输入分类名称'}, {'casename': '添加分类-搜索关键字为空', 'g_name': 'AT_搜索关键字为空', 'g_keywords': None, 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 100, 'assert': '请输入关键字'}, {'casename': '添加分类-分类描述为空', 'g_name': 'AT_分类描述为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': None, 'g_sort': 100, 'assert': '请输入简介说明'}, {'casename': '添加分类-排序值为空', 'g_name': '排序值为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': None, 'assert': '$检查g_name是否在列表中'}, {'casename': '正常添加一级分类', 'g_name': 'AT_测试类目名称', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 9, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-17 10:50:26,719 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '修改分类', 'g_name': '美体塑形T', 'g_keywords': 'autotest，一，二，三，四', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\国产瘦身.png', 'g_desc': '臀部吸脂能有效改善脂肪堆积问题，塑造一个丰满弹性的美臀。', 'g_sort': 100, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-17 10:50:26,737 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '创建二级分类', 'g_name': '中医减肥T', 'g_keywords': 'autotest，中医减肥，二级', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\国产瘦身.png', 'g_desc': '埋线减肥是针灸减肥的延伸和发展，是改良式外灸。', 'g_sort': 100, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-17 10:50:26,750 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '创建三级分类', 'g_name': '按摩减肥T', 'g_keywords': 'autotest，按摩减肥，三级', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\点阵激光.png', 'g_desc': '可调节脾脏的功能，加快脂肪代谢，达到瘦身减肥及养生保健功效。', 'g_sort': 100, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-17 10:50:34,627 login_page.py[line:58] INFO-> msg:用户名或密码错误(1)
+2020-07-17 10:50:41,330 login_page.py[line:58] INFO-> msg:用户名或密码错误(1)
+2020-07-17 10:50:47,391 login_page.py[line:58] INFO-> msg:验证码不正确(401)
+2020-07-17 10:50:54,192 index_page.py[line:21] INFO-> 体验用户
+2020-07-17 10:50:58,019 BasePage.py[line:156] INFO-> ---上传文件：C:\Users\admin\Pictures\Test_img\450x450.jpg
+2020-07-17 10:50:58,019 tool.py[line:43] INFO-> 上传文件地址：C:\Users\admin\Pictures\Test_img\450x450.jpg
+2020-07-17 10:50:59,107 tool.py[line:69] INFO-> -----文件上传完成：C:\Users\admin\Pictures\Test_img\450x450.jpg
+2020-07-17 10:51:04,196 BasePage.py[line:156] INFO-> ---上传文件：C:\Users\admin\Pictures\Test_img\750x750.jpg
+2020-07-17 10:51:04,196 tool.py[line:43] INFO-> 上传文件地址：C:\Users\admin\Pictures\Test_img\750x750.jpg
+2020-07-17 10:51:05,249 tool.py[line:69] INFO-> -----文件上传完成：C:\Users\admin\Pictures\Test_img\750x750.jpg
+2020-07-17 10:51:29,387 BasePage.py[line:91] ERROR-> 元素定位失败: Message: 
+
+2020-07-17 10:51:29,770 BasePage.py[line:79] INFO-> 咔嚓！！
+2020-07-17 10:51:35,204 BasePage.py[line:156] INFO-> ---上传文件：C:\Users\admin\Pictures\Test_img\750x750.jpg
+2020-07-17 10:51:35,204 tool.py[line:43] INFO-> 上传文件地址：C:\Users\admin\Pictures\Test_img\750x750.jpg
+2020-07-17 10:51:36,273 tool.py[line:69] INFO-> -----文件上传完成：C:\Users\admin\Pictures\Test_img\750x750.jpg
+2020-07-17 10:52:00,007 BasePage.py[line:91] ERROR-> 元素定位失败: Message: 
+
+2020-07-17 10:52:00,393 BasePage.py[line:79] INFO-> 咔嚓！！
+2020-07-17 10:52:12,213 BasePage.py[line:156] INFO-> ---上传文件：C:\Users\admin\Pictures\Test_img\750x750.jpg
+2020-07-17 10:52:12,213 tool.py[line:43] INFO-> 上传文件地址：C:\Users\admin\Pictures\Test_img\750x750.jpg
+2020-07-17 10:52:13,263 tool.py[line:69] INFO-> -----文件上传完成：C:\Users\admin\Pictures\Test_img\750x750.jpg
+2020-07-17 10:52:18,134 BasePage.py[line:156] INFO-> ---上传文件：C:\Users\admin\Pictures\Test_img\750x750.jpg
+2020-07-17 10:52:18,134 tool.py[line:43] INFO-> 上传文件地址：C:\Users\admin\Pictures\Test_img\750x750.jpg
+2020-07-17 10:52:19,195 tool.py[line:69] INFO-> -----文件上传完成：C:\Users\admin\Pictures\Test_img\750x750.jpg
+2020-07-17 10:52:25,644 BasePage.py[line:156] INFO-> ---上传文件：C:\Users\admin\Pictures\Test_img\国产瘦身.png
+2020-07-17 10:52:25,644 tool.py[line:43] INFO-> 上传文件地址：C:\Users\admin\Pictures\Test_img\国产瘦身.png
+2020-07-17 10:52:26,713 tool.py[line:69] INFO-> -----文件上传完成：C:\Users\admin\Pictures\Test_img\国产瘦身.png
+2020-07-17 10:52:31,997 BasePage.py[line:156] INFO-> ---上传文件：C:\Users\admin\Pictures\Test_img\国产瘦身.png
+2020-07-17 10:52:31,997 tool.py[line:43] INFO-> 上传文件地址：C:\Users\admin\Pictures\Test_img\国产瘦身.png
+2020-07-17 10:52:33,049 tool.py[line:69] INFO-> -----文件上传完成：C:\Users\admin\Pictures\Test_img\国产瘦身.png
+2020-07-17 10:52:38,465 BasePage.py[line:156] INFO-> ---上传文件：C:\Users\admin\Pictures\Test_img\点阵激光.png
+2020-07-17 10:52:38,465 tool.py[line:43] INFO-> 上传文件地址：C:\Users\admin\Pictures\Test_img\点阵激光.png
+2020-07-17 10:52:39,518 tool.py[line:69] INFO-> -----文件上传完成：C:\Users\admin\Pictures\Test_img\点阵激光.png
+2020-07-17 10:52:44,224 Test_login.py[line:32] INFO-> ----------Test_login执行完毕，关闭浏览器----------
+2020-07-17 16:33:38,843 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '错误的账号', 'username': 'zhaofy', 'password': '123456', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的密码', 'username': 'user', 'password': '1111111', 'access_token': None, 'assert': '用户名或密码错误(1)'}, {'casename': '错误的图片验证码', 'username': 'user', 'password': '123456', 'access_token': '66666', 'assert': '验证码不正确(401)'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-17 16:33:38,856 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '正常登陆', 'username': 'user', 'password': '123456', 'access_token': None, 'assert': '$index_page.button_top_right_user()'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/login
+2020-07-17 16:33:38,869 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '添加分类-分类名称为空', 'g_name': None, 'g_keywords': '添加分类-分类名称为空', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\450x450.jpg', 'g_desc': '添加分类-分类名称为空', 'g_sort': 100, 'assert': '请输入分类名称'}, {'casename': '添加分类-搜索关键字为空', 'g_name': 'AT_搜索关键字为空', 'g_keywords': None, 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 100, 'assert': '请输入关键字'}, {'casename': '添加分类-分类描述为空', 'g_name': 'AT_分类描述为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': None, 'g_sort': 100, 'assert': '请输入简介说明'}, {'casename': '添加分类-排序值为空', 'g_name': '排序值为空', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': None, 'assert': '$检查g_name是否在列表中'}, {'casename': '正常添加一级分类', 'g_name': 'AT_测试类目名称', 'g_keywords': 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\750x750.jpg', 'g_desc': 'Autotest_分类描述分类描述分类描述', 'g_sort': 9, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-17 16:33:38,881 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '修改分类', 'g_name': '美体塑形T', 'g_keywords': 'autotest，一，二，三，四', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\国产瘦身.png', 'g_desc': '臀部吸脂能有效改善脂肪堆积问题，塑造一个丰满弹性的美臀。', 'g_sort': 100, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-17 16:33:38,894 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '创建二级分类', 'g_name': '中医减肥T', 'g_keywords': 'autotest，中医减肥，二级', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\国产瘦身.png', 'g_desc': '埋线减肥是针灸减肥的延伸和发展，是改良式外灸。', 'g_sort': 100, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-17 16:33:38,906 rw_yaml.py[line:64] INFO-> 测试用例数据：[{'casename': '创建三级分类', 'g_name': '按摩减肥T', 'g_keywords': 'autotest，按摩减肥，三级', 'g_img': 'C:\\Users\\admin\\Pictures\\Test_img\\点阵激光.png', 'g_desc': '可调节脾脏的功能，加快脂肪代谢，达到瘦身减肥及养生保健功效。', 'g_sort': 100, 'assert': '$检查g_name是否在列表中'}] - url:http://192.168.200.103/DEV/ssxq-web-admin/#/product/category
+2020-07-17 16:33:47,270 login_page.py[line:58] INFO-> msg:验证码不正确(401)
+2020-07-17 16:33:49,512 login_page.py[line:58] INFO-> msg:验证码不正确(401)
+2020-07-17 16:33:51,675 login_page.py[line:58] INFO-> msg:验证码不正确(401)
+2020-07-17 16:34:38,945 BasePage.py[line:91] ERROR-> 元素定位失败: Message: 
+
+2020-07-17 16:34:39,347 BasePage.py[line:79] INFO-> 咔嚓！！
+2020-07-17 16:34:59,359 BasePage.py[line:133] ERROR-> Failed to click the element with Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='app']/div/div/div/div/div/ul/div[2]/li/div"}
+  (Session info: chrome=83.0.4103.116)
+
+2020-07-17 16:34:59,726 BasePage.py[line:79] INFO-> 咔嚓！！
+2020-07-17 16:35:20,257 BasePage.py[line:91] ERROR-> 元素定位失败: Message: 
+
+2020-07-17 16:35:20,611 BasePage.py[line:79] INFO-> 咔嚓！！
+2020-07-17 16:35:40,669 BasePage.py[line:133] ERROR-> Failed to click the element with Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='app']/div/div/div/div/div/ul/div[2]/li/ul/div/a/li"}
+  (Session info: chrome=83.0.4103.116)
+
+2020-07-17 16:35:41,019 BasePage.py[line:79] INFO-> 咔嚓！！
+2020-07-17 16:36:22,569 BasePage.py[line:91] ERROR-> 元素定位失败: Message: 
+
+2020-07-17 16:36:22,943 BasePage.py[line:79] INFO-> 咔嚓！！
+2020-07-17 16:36:42,970 BasePage.py[line:133] ERROR-> Failed to click the element with Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='app']/div/div[2]/section/div/div[2]/button[2]"}
+  (Session info: chrome=83.0.4103.116)
+
+2020-07-17 16:36:43,312 BasePage.py[line:79] INFO-> 咔嚓！！
+2020-07-17 16:37:03,859 BasePage.py[line:91] ERROR-> 元素定位失败: Message: 
+
+2020-07-17 16:37:04,197 BasePage.py[line:79] INFO-> 咔嚓！！
+2020-07-17 16:37:24,749 BasePage.py[line:91] ERROR-> 元素定位失败: Message: 
+
+2020-07-17 16:37:25,135 BasePage.py[line:79] INFO-> 咔嚓！！
+2020-07-17 16:37:45,152 BasePage.py[line:124] ERROR-> 输入框清空失败： Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='app']/div/div[2]/section/div/div[1]/div/div[2]/form/div[2]/div/div/input"}
+  (Session info: chrome=83.0.4103.116)
+
+2020-07-17 16:37:45,523 BasePage.py[line:79] INFO-> 咔嚓！！
+2020-07-17 16:38:05,528 BasePage.py[line:113] ERROR-> 输入失败： Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='app']/div/div[2]/section/div/div[1]/div/div[2]/form/div[2]/div/div/input"}
+  (Session info: chrome=83.0.4103.116)
+
+2020-07-17 16:38:05,861 BasePage.py[line:79] INFO-> 咔嚓！！
+2020-07-17 16:38:26,386 BasePage.py[line:91] ERROR-> 元素定位失败: Message: 
+
+2020-07-17 16:38:26,734 BasePage.py[line:79] INFO-> 咔嚓！！
+2020-07-17 16:38:46,772 BasePage.py[line:133] ERROR-> Failed to click the element with Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='app']/div/div[2]/section/div/div[1]/div/div[2]/form/div[3]/div/div/div[1]"}
+  (Session info: chrome=83.0.4103.116)
+
+2020-07-17 16:38:47,098 BasePage.py[line:79] INFO-> 咔嚓！！
+2020-07-17 16:38:48,099 BasePage.py[line:156] INFO-> ---上传文件：C:\Users\admin\Pictures\Test_img\450x450.jpg
+2020-07-17 16:38:48,099 tool.py[line:43] INFO-> 上传文件地址：C:\Users\admin\Pictures\Test_img\450x450.jpg
+2020-07-17 16:38:49,106 tool.py[line:69] INFO-> -----文件上传完成：C:\Users\admin\Pictures\Test_img\450x450.jpg
+2020-07-17 16:39:10,635 BasePage.py[line:91] ERROR-> 元素定位失败: Message: 
+
+2020-07-17 16:39:10,995 BasePage.py[line:79] INFO-> 咔嚓！！
