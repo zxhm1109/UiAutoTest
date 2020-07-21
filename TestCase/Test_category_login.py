@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Author    : zhaofy
 # @Datetime  : 2020/7/9 16:46
-# @File      : Test_login.py
+# @File      : Test_category_login.py
 # @desc      :
 
 import unittest
@@ -21,7 +21,7 @@ category_L3_add_casedata, category_L3_add_url = get_case_data('category_L3_add')
 
 
 @ddt
-class test_login(unittest.TestCase):
+class test_category_login(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
@@ -29,11 +29,12 @@ class test_login(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls):
+        pass
         logger.info('----------{}执行完毕，关闭浏览器----------'.format(__name__))
         cls.driver.close()
 
     def setUp(self):
-        self.driver.implicitly_wait(10)
+        self.driver.implicitly_wait(20)
 
     def tearDown(self):
         time.sleep(1)
@@ -95,8 +96,12 @@ class test_login(unittest.TestCase):
         time.sleep(0.5)
         self.driver.refresh()
 
+    def test_5_category_del_L1(self):
+        category = category_page.CategoryPage(self.driver)
+        category.del_L1_category()
+
     @data(*category_edit_casedata)
-    def test_5_category_L1_edit(self, category_edit_casedata):
+    def test_6_category_L1_edit(self, category_edit_casedata):
         '''
         编辑一级分类功能用例
         :return:
@@ -113,7 +118,7 @@ class test_login(unittest.TestCase):
             self.assertIn(category_edit_casedata['assert'], category.check_add_edit_error())
 
     @data(*category_L2_add_casedata)
-    def test_6_category_L2_add(self, category_L2_add_casedata):
+    def test_7_category_L2_add(self, category_L2_add_casedata):
         category = category_page.CategoryPage(self.driver)
         category.add_L2_category(category_L2_add_casedata['g_name'], category_L2_add_casedata['g_keywords'],
                                  category_L2_add_casedata['g_img'],
@@ -122,7 +127,7 @@ class test_login(unittest.TestCase):
         self.assertTrue(category.check_gname_in_glist(category_L2_add_casedata['g_name']))
 
     @data(*category_L3_add_casedata)
-    def test_7_category_L3_add(self,category_L3_add_casedata):
+    def test_8_category_L3_add(self, category_L3_add_casedata):
         category = category_page.CategoryPage(self.driver)
         category.add_L3_category(category_L3_add_casedata['g_name'], category_L3_add_casedata['g_keywords'],
                                  category_L3_add_casedata['g_img'],
@@ -130,8 +135,14 @@ class test_login(unittest.TestCase):
                                  category_L3_add_casedata['g_sort'])
         self.assertTrue(category.check_gname_in_glist(category_L3_add_casedata['g_name']))
 
-    def test_8_category_del(self):
+    def test_9_category_del(self):
         pass
+
+
+def all_test():
+    suite1 =unittest.TestLoader().loadTestsFromTestCase(test_category_login)
+    alltests=unittest.TestSuite(suite1)
+    return alltests
 
 if __name__ == '__main__':
     unittest.main()

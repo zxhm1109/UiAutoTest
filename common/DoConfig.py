@@ -63,13 +63,13 @@ class Get_path:
     conf = 'UiAutoTest\Data\Config.config'
     yaml = ReadConfig.read_config('file_path', 'yaml_path')
     screenshot = ReadConfig.read_config('file_path', 'screenshot_path')
+    code_img = ReadConfig.read_config('file_path', 'code_img')
 
     @classmethod
     def get_report_path(cls):
         report = os.path.join(cls.project_path, cls.report)
         if not os.path.exists(report):
             os.makedirs(report)
-        # report_path = os.path.join(report, str(time.strftime('%Y%m%d%H%M%S', time.localtime())) + '_UiAutoTest.html')
         report_path = os.path.join(report, str(time.strftime('%Y%m%d%H', time.localtime())) + '_UiAutoTest.html')
         return report_path
 
@@ -82,8 +82,7 @@ class Get_path:
         logpath = os.path.join(cls.project_path, cls.log)
         if not os.path.exists(logpath):
             os.makedirs(logpath)
-        log_path = os.path.join(logpath,
-                                str(time.strftime('%Y%m%d', time.localtime())) + '_UiAutoTest.log')
+        log_path = os.path.join(logpath, str(time.strftime('%Y%m%d', time.localtime())) + '_UiAutoTest.log')
         return log_path
 
     @classmethod
@@ -96,6 +95,14 @@ class Get_path:
         if not os.path.exists(screenshotpath):
             os.makedirs(screenshotpath)
         path = os.path.join(screenshotpath, str(time.strftime('%Y%m%d%H%M%S', time.localtime())) + '.png')
+        return path
+
+    @classmethod
+    def get_coed_img_path(cls):
+        code_img = cls.project_path + cls.code_img
+        if not os.path.exists(code_img):
+            os.makedirs(code_img)
+        path = os.path.join(code_img, str(time.strftime('%Y%m%d%H%M%S', time.localtime())) + '.gif')
         return path
 
 

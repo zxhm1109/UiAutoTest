@@ -7,6 +7,7 @@
 
 import time, os
 from common.logger import Mylog
+from common.DoConfig import Get_path
 
 logger = Mylog()
 
@@ -15,13 +16,34 @@ def load_img(img_path):
     from urllib import request
     res = request.Request(img_path)
     data = request.urlopen(res, timeout=10).read()
-    path = "../Data/img/"
-    img = "img-{}.gif".format(str(nowtimestr()))
-    if not os.path.exists(path):
-        os.makedirs(path)
-    with open(path + img, 'wb') as f:
+    path = Get_path.get_coed_img_path()
+    with open(path, 'wb') as f:
         f.write(data)
-    return path + img
+    return path
+
+
+def del_data_img(folderpath):
+    path = os.path.dirname(folderpath)
+    num = 0
+    for x, y, z in os.walk(path):
+        for i in z:
+            a = int(nowtimestr()[:-6])
+            b = int(i[:10])
+            ya = int(str(a)[:5])
+            yb = int(str(b)[:5])
+            ma = int(str(a)[4:-2])
+            mb = int(str(b)[4:-4])
+            da = int(str(a)[-2:])
+            db = int(str(b)[-4:-2])
+            if (ma - mb) >= 2 and ya >= yb:
+                os.remove(os.path.join(path, i))
+                num += 1
+            elif (ma - mb) == 1 and ya >= yb and da > db:
+                os.remove(os.path.join(path, i))
+                num += 1
+            else:
+                pass
+    logger.info('清理一个月前的历史图片数量:{}'.format(num))
 
 
 def nowtimestr():
@@ -29,17 +51,16 @@ def nowtimestr():
     return strtime
 
 
-import win32con
-import win32gui
-
-
 def upload(filePath, browser_type="chrome"):
     '''
     通过pywin32模块实现文件上传的操作
-    :param filePath: 文件的绝对路径
+    :param filePath: 文件的绝
+    对路径
     :param browser_type: 浏览器类型（默认值为chrome）
     :return:
     '''
+    import win32con
+    import win32gui
     logger.info("上传文件地址：{}".format(filePath))
     if browser_type.lower() == "chrome":
         title = "打开"
@@ -48,7 +69,7 @@ def upload(filePath, browser_type="chrome"):
     elif browser_type.lower() == "ie":
         title = "选择要加载的文件"
     else:
-        title = ""  # 这里根据其它不同浏览器类型来修改
+        title = ""  # 根据其它不同浏览器类型来修改
 
     # 找元素
     # 一级窗口"#32770","打开"
@@ -70,5 +91,6 @@ def upload(filePath, browser_type="chrome"):
 
 
 if __name__ == '__main__':
-    load_img(
-        'http://192.168.200.104:9900/api-uaa/validata/code/1242764A-783B-4374-B24E-077B6ECB2737?t=1593853142000')
+    # load_img(
+    #     'http://192.168.200.104:9900/api-uaa/validata/code/1242764A-783B-4374-B24E-077B6ECB2737?t=1593853142000')
+    del_data_img(Get_path.get_coed_img_path())

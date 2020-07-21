@@ -17,5 +17,32 @@ class brower:
         driver.maximize_window()
         driver.implicitly_wait(10)
         driver.refresh()
-
         return driver
+
+    @staticmethod
+    def firefox(url):
+        driver=webdriver.Firefox()
+        driver.get(url)
+        driver.maximize_window()
+        driver.implicitly_wait(10)
+        driver.refresh()
+        return driver
+
+    @staticmethod
+    def ie(url):
+        driver=webdriver.Ie()
+        driver.get(url)
+        driver.maximize_window()
+        driver.implicitly_wait(10)
+        driver.refresh()
+        return driver
+
+    @staticmethod
+    def safari(url):
+        driver=webdriver.Safari()
+        driver.get(url)
+        driver.maximize_window()
+        driver.implicitly_wait(10)
+        driver.refresh()
+        return driver
+

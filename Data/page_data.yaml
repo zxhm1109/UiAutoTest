@@ -64,21 +64,21 @@ category_add:
     g_desc:
     g_sort: 100
     assert: '请输入简介说明'
-#  no_sort_add:
-#    casename: '添加分类-排序值为空'
-#    g_name: '排序值为空'
-#    g_keywords: 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_'
-#    g_img: 'C:\Users\admin\Pictures\Test_img\750x750.jpg'
-#    g_desc: 'Autotest_分类描述分类描述分类描述'
-#    g_sort:
-#    assert: $检查g_name是否在列表中
+  no_sort_add:
+    casename: '添加分类-排序值为空'
+    g_name: '排序值为空'
+    g_keywords: 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_'
+    g_img: 'C:\Users\admin\Pictures\Test_img\750x750.jpg'
+    g_desc: 'Autotest_分类描述分类描述分类描述'
+    g_sort:
+    assert: $检查g_name是否在列表中
   normal_add_category:
     casename: '正常添加一级分类'
     g_name: 'AT_测试类目名称'
     g_keywords: 'Autotest_,Autotest_,Autotest_,Autotest_,Autotest_'
     g_img: 'C:\Users\admin\Pictures\Test_img\750x750.jpg'
     g_desc: 'Autotest_分类描述分类描述分类描述'
-    g_sort: 1111
+    g_sort: 9
     assert: $检查g_name是否在列表中
 
 #修改一级分类用例

@@ -25,7 +25,7 @@ class BasePage(object):
 
     def __init__(self, driver):
         self.driver = driver
-        self.wait = WebDriverWait(self.driver, 10)
+        self.wait = WebDriverWait(self.driver, 20)
 
     # 等待元素可见
     def wait_ele_visible(self, k, v):

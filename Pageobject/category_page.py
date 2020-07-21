@@ -88,7 +88,7 @@ class CategoryPage(BasePage):
         self.click(*loc.button_del_L1_ele)
         self.click(*loc.button_del_confirm_ele)
 
-    #删除第一个一级分类下的第一个二级分类
+    # 删除第一个一级分类下的第一个二级分类
     def del_L2_category(self):
         self.click(*loc.button_del_L2_ele)
         self.click(*loc.button_del_confirm_ele)
@@ -101,7 +101,6 @@ class CategoryPage(BasePage):
     # 隐藏/显示 排在第一个的一级分类
     def hide_L1_category(self):
         self.click(*loc.button_hide_L1_ele)
-
 
     # 检查页面顶部路径
     def check_page_path(self):

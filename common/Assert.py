@@ -8,7 +8,7 @@
 class Assert:
 
     @staticmethod
-    def equal(result,expect):
+    def equal(result, expect):
         if result is None:
             return 'result为None，无法比较！'
         elif '$' in expect:
