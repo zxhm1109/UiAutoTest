@@ -73,7 +73,6 @@ class BasePage(object):
 
     # 保存截图
     def get_windows_img(self):
-
         try:
             self.driver.get_screenshot_as_file(Get_path.get_screenshot_path())
             logger.info("咔嚓！！")
@@ -169,12 +168,19 @@ class BasePage(object):
             flag = False
             return flag
 
+    # 鼠标悬停
+    def mouse_hover(self, k, v):
+        try:
+            ActionChains(self.driver).move_to_element(self.driver.find_element(k, v)).perform()
+        except Exception as e:
+            logger.error("鼠标悬停操作失败： %s" % e)
+            self.get_windows_img()
+
     @staticmethod
     def sleep(seconds):
         time.sleep(seconds)
         # logger.info("强制等待： %d seconds" % seconds)
 
-    @staticmethod
     def im_wait(self, seconds):
         self.driver.implicitly_wait(seconds)
         # logger.info("隐式等待： %d seconds." % seconds)

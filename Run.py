@@ -23,7 +23,7 @@ def run():
     loader = unittest.TestLoader()
     from TestCase import Test_category_login,Test_product_setmeal
     suite.addTest(
-        loader.loadTestsFromTestCase(Test_category_login.test_category_login,Test_product_setmeal.test_product_setmeal))
+        loader.loadTestsFromTestCase(Test_category_login.test_category_login))
     unittest.TextTestRunner(verbosity=2)
     # 生成HTML报告
     with open(Get_path.get_report_path(), 'wb') as ff:

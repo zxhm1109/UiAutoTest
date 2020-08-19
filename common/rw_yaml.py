@@ -66,5 +66,6 @@ def get_case_data(casesuite):
 
 
 if __name__ == '__main__':
-    a = get_case_data('category')
-    print(a)
+    import json
+    a = DoYaml().read('token')
+    print(json.dumps(a))
