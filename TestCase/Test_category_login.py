@@ -31,7 +31,7 @@ class test_category_login(unittest.TestCase):
     def tearDownClass(cls):
         pass
         logger.info('----------{}执行完毕，关闭浏览器----------'.format(__name__))
-        cls.driver.close()
+        cls.driver.quit()
 
     def setUp(self):
         self.driver.implicitly_wait(20)
@@ -86,7 +86,8 @@ class test_category_login(unittest.TestCase):
         :return:
         '''
         category = category_page.CategoryPage(self.driver)
-        category.add_stair_category(category_casedata['g_name'], category_casedata['g_keywords'], category_casedata['g_img'],
+        category.add_stair_category(category_casedata['g_name'], category_casedata['g_keywords'],
+                                    category_casedata['g_img'],
                                     category_casedata['g_desc'],
                                     category_casedata['g_sort'])
         if '$' in category_casedata['assert']:
@@ -140,9 +141,10 @@ class test_category_login(unittest.TestCase):
 
 
 def all_test():
-    suite1 =unittest.TestLoader().loadTestsFromTestCase(test_category_login)
-    alltests=unittest.TestSuite(suite1)
+    suite1 = unittest.TestLoader().loadTestsFromTestCase(test_category_login)
+    alltests = unittest.TestSuite(suite1)
     return alltests
+
 
 if __name__ == '__main__':
     unittest.main()

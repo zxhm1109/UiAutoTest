@@ -14,8 +14,8 @@ logger = Mylog()
 
 class DoYaml:
 
-    def __init__(self):
-        self.yamlpath = Get_path.get_yaml_path()
+    def __init__(self,name):
+        self.yamlpath = Get_path.get_yaml_path(name)
 
     def read(self, section=None, option=None):
         parh = self.yamlpath
@@ -24,7 +24,7 @@ class DoYaml:
         if section is None:
             return res
         else:
-            if len(res) < 2:
+            if len(res) > 2:
                 for sections, options in res.items():
                     if section not in sections:
                         return False, "未找到section"
@@ -67,5 +67,5 @@ def get_case_data(casesuite):
 
 if __name__ == '__main__':
     import json
-    a = DoYaml().read('token')
+    a = DoYaml().read('login_fault','url')
     print(json.dumps(a))

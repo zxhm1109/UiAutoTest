@@ -1,0 +1,3 @@
+base:
+  env: test
+  url: "https://t2wxapi.sancell.top/saas-back/#/login"

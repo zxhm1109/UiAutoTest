@@ -11,7 +11,7 @@ from selenium.webdriver.support import expected_conditions as EC
 # 鼠标操作
 from selenium.webdriver.common.action_chains import ActionChains
 import time
-import os.path
+from common.DoConfig import Get_path
 from common.logger import Mylog
 from selenium.common.exceptions import NoSuchElementException
 from common.DoConfig import *
@@ -80,6 +80,17 @@ class BasePage(object):
             logger.error("截图失败： %s" % e)
             self.get_windows_img()
 
+    # 保存元素区域截图
+    def screenshot_ele_png(self, k, v):
+        try:
+            img_path = Get_path.get_screenshot_path()
+            self.driver.find_element(k, v).screenshot(img_path)
+            logger.info('截取{} 图片成功~~~'.format(v))
+            return img_path
+        except Exception as e:
+            logger.error("截图失败： %s" % e)
+            self.get_windows_img()
+
     # 定位元素
     def get_element(self, k, v):
         try:
@@ -129,12 +140,12 @@ class BasePage(object):
         try:
             self.driver.find_element(k, v).click()
         except Exception as e:
-            logger.error("Failed to click the element with %s" % e)
+            logger.error("单机元素失败： %s" % e)
             self.get_windows_img()
 
     # 获取网页标题
     def get_page_title(self):
-        logger.info("Current page title is %s" % self.driver.title)
+        logger.info("当前页面标题： %s" % self.driver.title)
         return self.driver.title
 
     # 获取元素文本内容

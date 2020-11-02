@@ -16,8 +16,11 @@ class loginpage_locators:
     password_ele = (By.XPATH, "//*[@name='password']")
     login_ele = (By.XPATH, "//*[@class='el-button el-button--primary']")
     imgcode_ele = (By.XPATH, "//img[@class='el-image__inner']")
-    input_imgcode_ele = (By.XPATH, "//input[@class='el-input__inner' and @name='validCode']")
+    input_imgcode_ele = (By.XPATH, '//*[@placeholder="验证码"]')
     login_error_ele = (By.XPATH, "/html/body/div[2]/p")
+
+    button_passlogin_ele=(By.XPATH,"//*[@class='el-tabs__item is-active']")
+
 
 
 if __name__ == '__main__':

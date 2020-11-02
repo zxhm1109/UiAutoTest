@@ -12,6 +12,7 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="common.BasePage.Waitele.sleep" />
+          <option value="tesserocr" />
         </list>
       </option>
     </inspection_tool>

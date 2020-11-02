@@ -9,13 +9,15 @@ import configparser, os, time
 
 
 def config_path():
-    config_path = os.path.abspath(os.path.dirname(__file__)).split('UiAutoTest')[0] + 'UiAutoTest\Data\Config.config'
+    config_path = os.path.join(os.path.abspath(os.path.dirname(__file__)).split('UiAutoTest')[0],
+                               r'UiAutoTest\Data\Config.config')
     return config_path
 
 
 class ReadConfig:
 
     @staticmethod
+    # 读取conf文件，输出指定value
     def read_config(section, option):
         # 读取config文件
         cf = configparser.ConfigParser()
@@ -25,6 +27,7 @@ class ReadConfig:
         return res
 
     @staticmethod
+    # 读取conf文件，输出[(,),(,)]
     def read_config_options_value(section):
         # 读取config文件
         cf = configparser.ConfigParser()
@@ -33,6 +36,7 @@ class ReadConfig:
         return rrr
 
     @staticmethod
+    # 读取conf文件，输入ValueList
     def read_config_options_list(section):
         cf = configparser.ConfigParser()
         cf.read(config_path(), encoding='utf-8')
@@ -42,6 +46,16 @@ class ReadConfig:
             rrr = cf.get(section, opt)
             result.append(rrr)
         return result
+
+    @staticmethod
+    # 读取conf文件，输出dict
+    def read_config_options_dict(section):
+        cf = configparser.ConfigParser()
+        cf.read(config_path(), encoding='utf-8')
+        conf_dict = dict(cf._sections)
+        for k in conf_dict:
+            conf_dict[k] = dict(conf_dict[k])
+        return conf_dict[section]
 
 
 class WriteConfig:
@@ -61,7 +75,6 @@ class Get_path:
     log = ReadConfig.read_config('file_path', 'log_path')
     report = ReadConfig.read_config('file_path', 'report_path')
     conf = 'UiAutoTest\Data\Config.config'
-    yaml = ReadConfig.read_config('file_path', 'yaml_path')
     screenshot = ReadConfig.read_config('file_path', 'screenshot_path')
     code_img = ReadConfig.read_config('file_path', 'code_img')
 
@@ -86,8 +99,9 @@ class Get_path:
         return log_path
 
     @classmethod
-    def get_yaml_path(cls):
-        return os.path.join(cls.project_path, cls.yaml)
+    def get_yaml_path(cls,name):
+        yaml =  os.path.join(cls.project_path,ReadConfig.read_config('file_path', 'yaml_path'))
+        return os.path.join(yaml,name +'.yaml')
 
     @classmethod
     def get_screenshot_path(cls):
@@ -102,12 +116,22 @@ class Get_path:
         code_img = cls.project_path + cls.code_img
         if not os.path.exists(code_img):
             os.makedirs(code_img)
-        path = os.path.join(code_img, str(time.strftime('%Y%m%d%H%M%S', time.localtime())) + '.gif')
+        path = os.path.join(code_img, str(time.strftime('%Y%m%d%H%M%S', time.localtime())) + '.jpg')
         return path
 
 
 if __name__ == '__main__':
     # logpath = ReadConfig.read_config('file_path', 'log_path')
     # print(logpath)
-    a = Get_path.get_screenshot_path()
+    # a = Get_path.get_screenshot_path()
+    # print(a)
+    # cf = configparser.ConfigParser()
+    # cf.read(config_path(), encoding='utf-8')
+    # # 根据标签、option获取值
+    # res = dict(cf._sections)
+    # print(res)
+
+    # a=ReadConfig.read_config_options_dict('test_redis')
+    # print(a)
+    a=Get_path.get_yaml_path('1')
     print(a)
